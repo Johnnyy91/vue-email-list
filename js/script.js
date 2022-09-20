@@ -1,13 +1,11 @@
-const vueEmailList = new Vue ( 
+console.log('JS OK');
 
-    {
+const vueEmailList = new Vue ({
         el : "#root",
-        data : {
-
-            contacts: []
-
+        data : 
+        {
+            contacts: [],
         },
-
         
         mounted() {
 
@@ -23,7 +21,7 @@ const vueEmailList = new Vue (
                     this.contacts.push(randomMail)
 
                     }
-                
+
                 );
 
             }
