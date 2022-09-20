@@ -28,7 +28,11 @@
         <div id="root">
             <h1>VUE EMAIL LIST</h1>
             <h2>Random List</h2>
-            <div class="list" v-for="(item, index) in contacts" v-if="contacts.length == 10">
+            <div 
+            class="list" 
+            v-for="(item, index) in contacts"
+            v-if="contacts.length == 10"
+             >
                 <ul>
                     <li>{{ item }}</li>
                 </ul>
