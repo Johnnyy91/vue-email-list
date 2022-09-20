@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: orange;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+.list{
+    padding: 15px;
+    font-size: 1.5rem;
+}
